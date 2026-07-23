@@ -1,0 +1,8 @@
+{
+    "virustotal_api_key": "TU_API_KEY_VIRUSTOTAL",
+    "safe_domains": [
+        "google.com",
+        "microsoft.com",
+        "github.com"
+    ]
+}

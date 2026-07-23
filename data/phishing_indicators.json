@@ -1,0 +1,14 @@
+{
+    "blacklisted_domains": [
+        "malicious-domain.com",
+        "phishing-site.net"
+    ],
+    "blacklisted_keywords": [
+        "urgente",
+        "verifique su cuenta",
+        "premio",
+        "ganador",
+        "factura pendiente",
+        "suspensión de cuenta"
+    ]
+}

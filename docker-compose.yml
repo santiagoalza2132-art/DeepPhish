@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  deepphish:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+      - ./reports:/app/reports
+    command: python src/deepphish.py
+    # Para pasar un correo electrónico de ejemplo, puedes montar un volumen con el archivo
+    # o usar stdin si ejecutas el contenedor interactivamente.
+    # Ejemplo: docker-compose run deepphish < email_ejemplo.eml
